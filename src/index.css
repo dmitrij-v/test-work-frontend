@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  display: flex;
+  min-height: 600px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SignUp form */
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  height: 400px;
+  padding: 24px;
+}
+
+.login-form--form-line {
+  margin: 8px 0;
+}
+
+.login-form--form-line > input {
+  border: 0px;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+
+/* Task Tracker*/
+
+.task-tracker--header {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.task-tracker--log-out {
+  height: 24px;
+  width: 64px;
+}
+
+.task-tracker--add-panel {
+  display: flex;
+  margin: 16px 0;
+}
+
+.task-tracker--list-header {
+  display: flex;
+  margin: 8px 0;
+}
+
+.task-tracker--list-line {
+  display: flex;
+  margin: 8px 0;
+}
+
+.task-tracker--item {
+  width: 120px;
+}
